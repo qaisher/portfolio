@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" a href="css/bootstrap.css"/>
-    <link rel="stylesheet" a href="css/fonts.css"/>
-    <link rel="stylesheet" href="css/mystyle.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script src="js/boostrapjquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/proper.js"></script>
+    <link rel="stylesheet" a href="css/bootstrap.css"/>
+    <link rel="stylesheet" a href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/mystyle.css"/>
     <title>My Portfolio Website</title>
   </head>
   <body data-spy="scroll" data-target=".navbar">
@@ -19,12 +18,13 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
 
-                    <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar-item">
+                    
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="Navbar-item">
-                        <ul class="navbar-nav ml-auto">
+                    <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav" style="margin-left: auto;">
                             <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
                             <li class="nav-item"><a href="#professionalSkills" class="nav-link">Professional Skills</a></li>
                             <li class="nav-item"><a href="#personalSkills" class="nav-link">Personal Skills</a></li>
@@ -43,8 +43,8 @@
     </div>
 
     <!--About-->
-    <div id="about">
-<div class="container mt-5">
+    <div id="about" class="mt-5">
+<div class="container">
     <div class="row">
         <div class="col">
             <div id="aboutData">
@@ -96,8 +96,8 @@
     </div>
 
     <!--AboutMe-->
-    <div id="aboutMe">
-    <div class="container mt-5">
+    <div id="aboutMe" class="mt-5">
+    <div class="container">
         <span class="bg-danger text-white">About Me</span><hr class="bg-danger">
         <div class="row">
             <div class="col">
@@ -124,8 +124,8 @@
     </div>
 
 <!--Professional Skills-->
-<div id="professionalSkills">
-    <div class="container mt-5">
+<div id="professionalSkills" class="mt-5">
+    <div class="container">
         <span class="bg-primary text-white">Professional Skills</span><hr class="bg-primary">
         <div class="row">
             <div class="col">
@@ -181,8 +181,8 @@
 </div>
 
 <!--Personal Skills-->
-<div id="personalSkills">
-    <div class="container mt-5">
+<div id="personalSkills" class="mt-5">
+    <div class="container">
         <span class="bg-primary text-white">Personal Skills</span><hr class="bg-primary">
         <div class="row">
             <div class="col">
@@ -220,8 +220,8 @@
 </div>
 
 <!--Experience-->
-<div id="experience">
-    <div class="container mt-5">
+<div id="experience" class="mt-5">
+    <div class="container">
         <span class="bg-success text-white">Experience</span><hr class="bg-success">
         <div class="row">
             <div class="col-lg-6">
@@ -236,8 +236,8 @@
 </div>
 
 <!--Qualification-->
-<div id="qualification">
-    <div class="container mt-5">
+<div id="qualification" class="mt-5">
+    <div class="container">
         <span class="bg-dark text-white">Qualification</span><hr class="bg-dark">
         <div class="row">
             <div class="col">
@@ -257,8 +257,8 @@
 </div>
 
 <!--OtherExams-->
-<div id="otherExams">
-    <div class="container mt-5">
+<div id="otherExams" class="mt-5">
+    <div class="container">
         <span class="bg-danger text-white">Other Exams</span><hr class="bg-danger">
         <div class="row">
             <div class="col">
@@ -278,8 +278,8 @@
 </div>
 
 <!--Contact-->
-<div id="contactMe">
-    <div class="container mt-5">
+<div id="contactMe" class="mt-5">
+    <div class="container">
         <span class="bg-dark text-white">Contact Me</span><hr class="bg-dark">
         <div class="row">
             <div class="col">
@@ -315,6 +315,9 @@
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
   </body>
 </html>
